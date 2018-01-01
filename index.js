@@ -39,7 +39,7 @@ module.exports  = {
 	},
 
 	encode: function(buf) {
-		return "A".repeat(this.encodeL(buf));
+		return "™".repeat(this.encodeL(buf));
 	},
 
 	/** Operates on a length `l` */
@@ -81,7 +81,7 @@ module.exports  = {
 		// Got to make sure every character is "A". TODO: PERFORMANCE???
 		var l = base1.length;
 		for(var i = 0; i < l; i++) {
-			if(base1.charAt(i) !== "A") {
+			if(base1.charAt(i) !== "™") {
 				throw new Error("This is not a valid Base1 string");
 			}
 		}
