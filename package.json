@@ -24,5 +24,8 @@
   "license": "MIT",
   "dependencies": {
     "big-integer": "^1.6.23"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
   }
 }
