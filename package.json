@@ -1,16 +1,16 @@
 {
-  "name": "base1",
+  "name": "basetm",
   "version": "0.1.0",
-  "description": "Convert binary data to Base1",
-  "homepage": "https://github.com/qntm/base1",
+  "description": "Convert binary data to Base™",
+  "homepage": "https://github.com/FNCxPro/basetm",
   "repository": {
     "type": "git",
-    "url": "git://github.com/qntm/base1.git"
+    "url": "git://github.com/FNCxPro/basetm.git"
   },
   "main": "index.js",
   "keywords": [
     "base64",
-    "base1",
+    "basetm",
     "encoding",
     "decoding",
     "text",
@@ -20,7 +20,7 @@
   "scripts": {
     "test": "node test/test.js"
   },
-  "author": "qntm",
+  "author": "relative",
   "license": "MIT",
   "dependencies": {
     "big-integer": "^1.6.23"
